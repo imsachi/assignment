@@ -7,11 +7,11 @@ const DropDown = (props) => {
       <select className="form-select" aria-label="Default select example">
         <option value={props.items[0].value} text={props.items[0].text}>
           {" "}
-          MALE
+          male
         </option>
         <option value={props.items[1].value} text={props.items[1].text}>
           {" "}
-          FEMALE
+          female
         </option>
       </select>
     </div>
