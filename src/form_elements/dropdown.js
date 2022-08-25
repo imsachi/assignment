@@ -17,16 +17,15 @@ const DropDown = (props) => {
           {" "}
           Third gender
         </option>
-      </select>
-<option value={props.items[1].value} text={props.items[1].text}>
+
+        <option value={props.items[1].value} text={props.items[1].text}>
           {" "}
           Third gender
         </option>
-<option value={props.items[1].value} text={props.items[1].text}>
+        <option value={props.items[1].value} text={props.items[1].text}>
           {" "}
           Deny
         </option>
-      </select>
       </select>
     </div>
   );
