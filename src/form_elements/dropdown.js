@@ -13,6 +13,10 @@ const DropDown = (props) => {
           {" "}
           Female
         </option>
+        <option value={props.items[1].value} text={props.items[1].text}>
+          {" "}
+          Third gender
+        </option>
       </select>
     </div>
   );
